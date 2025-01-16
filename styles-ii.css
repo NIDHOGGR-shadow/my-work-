@@ -1,0 +1,42 @@
+body{
+    background-image: url("flowers.jpg");
+    background-size: 50% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(37, 36, 36);
+    color: aquamarine;
+    font-family: Georgia;
+}
+h1{
+    margin-bottom: 4px;
+
+}
+hr{
+    width: 240px;
+    background-color: aquamarine;
+    position: absolute;left: 0px;
+    margin-top: 2px;
+    background-color: burlywood;
+}
+.box{
+    margin-top: 50px;
+    width: 300px;
+    font-family: Georgia;
+    color: violet;
+}
+
+.box{
+    width: 300px;
+    height: 200px;
+    background: #1F4529;;
+    color: aqua;
+    animation: mymove 5s infinite;
+    
+  }
+  
+  @keyframes mymove {
+    from {background-color:#1F4529;}
+    to {background-color: #FCFFC1; }
+    from {color: aqua;}
+    to {color: brown;}
+  }
